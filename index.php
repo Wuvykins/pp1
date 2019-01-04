@@ -1,3 +1,14 @@
+<?php
+/**
+ * Nic Alexander
+ */
+$numbers = [7, 9, 8, 9, 8, 8, 6];
+function prints($numbers)
+{
+    echo implode($numbers, ", ");
+}
+prints($numbers);
+?>
 <!doctype html>
 <html lang="en">
 <head>
