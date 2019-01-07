@@ -32,3 +32,13 @@ function average($numbers)
     }
     return $sum/sizeof($numbers);
 }
+function removeDups($numbers)
+{
+    return array_unique($numbers);
+}
+function distribution($numbers)
+{
+    $result = sort($numbers);
+    $result = array_count_values($numbers);
+    return $result;
+}

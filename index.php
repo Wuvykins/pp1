@@ -24,6 +24,12 @@ include "functions.php";
         echo "largest number ".largest($numbers);
         echo "<br>";
         echo "average number ".average($numbers);
+        echo "<br>";
+        echo "removed duplicates ";
+        echo printArray(removeDups($numbers));
+        echo "<br>";
+        echo "Occurences: ";
+        echo print_r(distribution($numbers));
     ?>
 
 </body>
