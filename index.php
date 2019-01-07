@@ -3,11 +3,9 @@
  * Nic Alexander
  */
 $numbers = [7, 9, 8, 9, 8, 8, 6];
-function prints($numbers)
-{
-    echo implode($numbers, ", ");
-}
-prints($numbers);
+include "functions.php";
+
+
 ?>
 <!doctype html>
 <html lang="en">
@@ -20,5 +18,12 @@ prints($numbers);
 </head>
 <body>
     <h1>Pair Program 1</h1>
+    <?php
+        echo printArray($numbers);
+        echo "<br>";
+        echo "largest number ".largest($numbers);
+        echo "<br>";
+    ?>
+
 </body>
 </html>
