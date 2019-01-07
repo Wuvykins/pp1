@@ -23,6 +23,7 @@ include "functions.php";
         echo "<br>";
         echo "largest number ".largest($numbers);
         echo "<br>";
+        echo "average number ".average($numbers);
     ?>
 
 </body>
